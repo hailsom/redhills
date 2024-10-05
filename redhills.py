@@ -46,3 +46,5 @@ elif today.month == next_period_month + 1 and next_period_day> period_end:
 elif next_period_month == 12 and today.month ==1:
     if today.day <= period_end:
         print("You are currently on your period.")
+
+print("~hai")
