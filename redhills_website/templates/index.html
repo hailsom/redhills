@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your sister from Red Hills Road </title>
+</head>
+<body>
+    <h1>Your sister from Red Hills Road </h1>
+    <form action="/calculate" method="POST">
+        <label for="last_period_month">Last Period Month (1-12):</label>
+        <input type="number" id="last_period_month" name="last_period_month" required><br><br>
+        
+        <label for="last_period_day">Last Period Day (1-31):</label>
+        <input type="number" id="last_period_day" name="last_period_day" required><br><br>
+        
+        <label for="period_duration">Period Duration (days):</label>
+        <input type="number" id="period_duration" name="period_duration" required><br><br>
+        
+        <button type="submit">Calculate Next Period</button>
+    </form>
+</body>
+</html>

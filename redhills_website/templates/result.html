@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Day</title>
+</head>
+<body>
+    <h1>Visit Day: </h1>
+    <p>Your next period is expected on: {{ next_period_month }}/{{ next_period_day }}</p>
+
+    {% if is_on_period %}
+        <p>You are currently on your period.</p>
+    {% else %}
+        <p>You are not currently on your period.</p>
+    {% endif %}
+    
+    <a href="/">Go Back</a>
+</body>
+</html>
